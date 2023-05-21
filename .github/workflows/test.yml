@@ -9,6 +9,6 @@ jobs:
             - name: checkout phase
               uses: actions/checkout@v3
             - run: |
-              mkdir bb
-              new-item "making-cash.txt"
-              echo "Devops Eng" > making-cash.txt
+                    mkdir bb
+                    New-item "making-cash.txt"
+                    echo "Devops Eng" > making-cash.txt
