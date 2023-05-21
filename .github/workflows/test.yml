@@ -6,9 +6,9 @@ jobs:
      test:
          runs-on: ubuntu-latest
          steps:
-             name: checkout phase
-             uses: actions/checkout@v3
-             run: |
+            - name: checkout phase
+              uses: actions/checkout@v3
+            - run: |
               mkdir bb
               new-item "making-cash.txt"
               echo "Devops Eng" > making-cash.txt
